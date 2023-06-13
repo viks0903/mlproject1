@@ -1,5 +1,10 @@
- pandas
- numpy
- seaborn
- -e .
+pandas
+wheel
+numpy
+seaborn
+matplotlib
+scikit-learn
+cython 
+
+#-e .
 

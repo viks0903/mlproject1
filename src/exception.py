@@ -1,5 +1,5 @@
 import sys
-
+from src.logger import logging
 
 def error_message_details(error,error_detail:sys):
    _,_,error_details.exc_info()
@@ -21,6 +21,6 @@ class CustomException(Exception):
 #if __name__=="__main__":
 
  #   try:
- #       a=1/0
- #   except Exception as e:
- #       raise CustomException(e,sys)
+  #      a=1/0
+   # except Exception as e:
+    #    raise CustomException(e,sys)
